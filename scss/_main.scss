@@ -1,0 +1,129 @@
+/* css reset */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.type{
+  font-size: 15px;
+  font-family: $fuente;
+}
+.logo-android img{
+  width: 30px;
+  height: 30px;
+}
+.fondo-nav{
+  background: $fondo-negro;
+}
+
+.bg-dark{
+  margin-top: 10px;
+  background-image: $imagen;
+}
+
+.imagen-wsp img{
+    position: fixed;
+    width: 40px;    
+    height: 40px;
+    top: 70%;
+    left: 88%
+}
+.imagen-wsp img:hover{
+    width: 50px;    
+    height: 50px;
+}
+.imagen-reparacion img{
+  margin-left: 200px; 
+}
+.texto-servicio{
+  color: $primario;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+}
+.texto-servicio span{
+  color: $texto-cel-claro
+}
+.textoprod{
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.lead{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.formulario{
+  padding: 20px 200px;
+  margin: 10px;
+}
+.body{
+  background-color: #f7efad;
+}
+.boton-enviar{
+  margin-top: 30px;
+}
+.margin-t{
+  margin-top: 100px;
+}
+.container-celulares{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:  space-evenly;
+  margin-top: 100px;
+}
+.container-celulares img{
+  height: 400px;
+  width: 600px;
+}
+.fbold{
+  font-weight: bold;
+}
+.texto-producto{
+  text-align: center;
+  font-size: 30px;
+}
+.boton-comprar{
+  margin-left: 265px;
+  margin: 10px;
+}
+.caracteristicas span{
+  font-size: $fuente-bold;
+  font-weight: bold;
+}
+.pos-destacado{
+  top: 0.5rem; right: 0.5rem;
+}
+
+
+
+
+/*media q*/
+@media all and (max-width: 480px){
+  .formulario{
+    width: 100%;
+    padding: 10px;
+    margin:  10px;   
+   }
+   .imagen-wsp img{
+    position: fixed;
+    width: 40px;    
+    height: 40px;
+    top: 70%;
+    left: 70%
+}
+.imagen-wsp img:hover{
+    width: 50px;    
+    height: 50px;
+}
+.container-celulares img{
+  height: 220px;
+  width: 400px;
+}
+div .modal-content{
+  height: 300px;
+  width: 380px;
+}
+}
+
+
