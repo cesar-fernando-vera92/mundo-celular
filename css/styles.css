@@ -163,31 +163,27 @@
     width: 50px;
     height: 50px;
   }
-  /* line 121, ../../Final Coder House/scss/_main.scss */
-  .texto-producto {
-    height: 110px;
-    display: flex;
-    padding: 10px;
-    flex-direction: colum;
-  }
-  /* line 127, ../../Final Coder House/scss/_main.scss */
+  /* line 122, ../../Final Coder House/scss/_main.scss */
   .container-celulares img {
-    height: 220px;
+    height: 300px;
     width: 300px;
   }
-  /* line 131, ../../Final Coder House/scss/_main.scss */
+  /* line 126, ../../Final Coder House/scss/_main.scss */
   .caracteristicas {
     margin-top: 50px;
   }
-  /* line 135, ../../Final Coder House/scss/_main.scss */
+  /* line 130, ../../Final Coder House/scss/_main.scss */
   section .texto-producto {
+    height: 150px;
+    display: flex;
+    padding: 10px;
     justify-content: center;
   }
-  /* line 137, ../../Final Coder House/scss/_main.scss */
+  /* line 135, ../../Final Coder House/scss/_main.scss */
   section .texto-producto button {
     margin-left: -100px;
   }
-  /* line 142, ../../Final Coder House/scss/_main.scss */
+  /* line 140, ../../Final Coder House/scss/_main.scss */
   div .modal-content {
     height: 300px;
     width: 300px;

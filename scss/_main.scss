@@ -118,14 +118,9 @@
     width: 50px;    
     height: 50px;
 }
-.texto-producto{
-  height: 110px;
-  display:flex;
-  padding:10px;
-  flex-direction: colum;
-}
+
 .container-celulares img{
-  height: 220px;
+  height: 300px;
   width: 300px;
 }
 .caracteristicas{
@@ -133,6 +128,9 @@
   }
 
 section .texto-producto{
+    height: 150px;
+    display:flex;
+    padding:10px;
     justify-content:center;
     button{
       margin-left: -100px;
