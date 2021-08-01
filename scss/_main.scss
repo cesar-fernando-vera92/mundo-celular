@@ -5,7 +5,7 @@
 }
 
 .type{
-  font-size: 15px;
+  font-size: $fuente-regular;
   font-family: $fuente;
 }
 .logo-android img{
@@ -14,6 +14,7 @@
 }
 .fondo-nav{
   background: $fondo-negro;
+  width:100%;
 }
 
 .bg-dark{
@@ -46,7 +47,7 @@
 }
 .textoprod{
   text-align: center;
-  font-size: 18px;
+  font-size: $fuente-regular;
   text-transform: uppercase;
 }
 .lead{
@@ -58,7 +59,7 @@
   margin: 10px;
 }
 .body{
-  background-color: #f7efad;
+  background-color: $fondo-claro;
 }
 .boton-enviar{
   margin-top: 30px;
@@ -99,6 +100,7 @@
 
 
 /*media q*/
+
 @media all and (max-width: 480px){
   .formulario{
     width: 100%;
@@ -116,13 +118,30 @@
     width: 50px;    
     height: 50px;
 }
+.texto-producto{
+  height: 110px;
+  display:flex;
+  padding:10px;
+  flex-direction: colum;
+}
 .container-celulares img{
   height: 220px;
-  width: 400px;
+  width: 300px;
 }
+.caracteristicas{
+  margin-top:50px;
+  }
+
+section .texto-producto{
+    justify-content:center;
+    button{
+      margin-left: -100px;
+    }
+}
+
 div .modal-content{
   height: 300px;
-  width: 380px;
+  width: 300px;
 }
 }
 
