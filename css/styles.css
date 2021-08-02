@@ -142,15 +142,31 @@
   right: 0.5rem;
 }
 
+/* line 99, ../../Final Coder House/scss/_main.scss */
+div .dropdown-menu {
+  background-color: #090909;
+}
+
+/* line 101, ../../Final Coder House/scss/_main.scss */
+div .dropdown-menu .dropdown-item {
+  color: #fff;
+}
+
+/* line 105, ../../Final Coder House/scss/_main.scss */
+div .dropdown-menu a:hover {
+  background: #fff;
+  color: black;
+}
+
 /*media q*/
 @media all and (max-width: 480px) {
-  /* line 105, ../../Final Coder House/scss/_main.scss */
+  /* line 117, ../../Final Coder House/scss/_main.scss */
   .formulario {
     width: 100%;
     padding: 10px;
     margin: 10px;
   }
-  /* line 110, ../../Final Coder House/scss/_main.scss */
+  /* line 122, ../../Final Coder House/scss/_main.scss */
   .imagen-wsp img {
     position: fixed;
     width: 40px;
@@ -158,35 +174,45 @@
     top: 70%;
     left: 70%;
   }
-  /* line 117, ../../Final Coder House/scss/_main.scss */
+  /* line 129, ../../Final Coder House/scss/_main.scss */
   .imagen-wsp img:hover {
     width: 50px;
     height: 50px;
   }
-  /* line 122, ../../Final Coder House/scss/_main.scss */
+  /* line 134, ../../Final Coder House/scss/_main.scss */
   .container-celulares img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 360px;
+    padding: 10px;
   }
-  /* line 126, ../../Final Coder House/scss/_main.scss */
+  /* line 139, ../../Final Coder House/scss/_main.scss */
   .caracteristicas {
     margin-top: 50px;
   }
-  /* line 130, ../../Final Coder House/scss/_main.scss */
+  /* line 143, ../../Final Coder House/scss/_main.scss */
   section .texto-producto {
-    height: 150px;
+    height: 100px;
     display: flex;
     padding: 10px;
     justify-content: center;
   }
-  /* line 135, ../../Final Coder House/scss/_main.scss */
+  /* line 148, ../../Final Coder House/scss/_main.scss */
   section .texto-producto button {
     margin-left: -100px;
   }
-  /* line 140, ../../Final Coder House/scss/_main.scss */
+  /* line 152, ../../Final Coder House/scss/_main.scss */
   div .modal-content {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 350px;
+  }
+}
+
+@media all and (max-width: 920px) {
+  /* line 160, ../../Final Coder House/scss/_main.scss */
+  .formulario {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
   }
 }
 

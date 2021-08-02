@@ -96,18 +96,30 @@
   top: 0.5rem; right: 0.5rem;
 }
 
+div .dropdown-menu{
+  background-color: $fondo-negro; 
+  .dropdown-item{
+    color: $primario;
+  }
+}
+div .dropdown-menu a:hover{
+  background: #fff;
+  color: black; 
+}
+
+
 
 
 
 /*media q*/
 
 @media all and (max-width: 480px){
-  .formulario{
+.formulario{
     width: 100%;
     padding: 10px;
     margin:  10px;   
-   }
-   .imagen-wsp img{
+}
+.imagen-wsp img{
     position: fixed;
     width: 40px;    
     height: 40px;
@@ -120,15 +132,16 @@
 }
 
 .container-celulares img{
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 360px;
+  padding:10px
 }
 .caracteristicas{
   margin-top:50px;
-  }
+}
 
 section .texto-producto{
-    height: 150px;
+    height: 100px;
     display:flex;
     padding:10px;
     justify-content:center;
@@ -136,11 +149,17 @@ section .texto-producto{
       margin-left: -100px;
     }
 }
-
 div .modal-content{
-  height: 300px;
-  width: 300px;
-}
+  height: 250px;
+  width: 350px;
 }
 
+}
 
+@media all and (max-width: 920px){
+  .formulario{
+    width: 100%;
+    padding: 10px;
+    margin:  10px;   
+}
+}
